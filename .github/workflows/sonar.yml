@@ -22,3 +22,4 @@ jobs:
         with:
           args: >
             -Dsonar.projectKey=shichao-gitar-testing_pr-review-demo-app
+            -Dsonar.organization=${{ vars.SONAR_ORGANIZATION }}
