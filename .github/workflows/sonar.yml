@@ -18,8 +18,8 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: https://sonarcloud.io
-          SONAR_ORGANIZATION: ${{ vars.SONAR_ORGANIZATION }}
+          SONAR_ORGANIZATION: shichao-gitar-testing
         with:
           args: >
             -Dsonar.projectKey=shichao-gitar-testing_pr-review-demo-app
-            -Dsonar.organization=${{ vars.SONAR_ORGANIZATION }}
+            -Dsonar.organization=shichao-gitar-testing
